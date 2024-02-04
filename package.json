@@ -4,6 +4,7 @@
   "description": "Frontend boilerplate based on gulp",
   "main": "index.js",
   "scripts": {
+    "generate-assets": "node resizeImages.js",
     "init": "mate-scripts init",
     "start": "mate-scripts start",
     "lint": "mate-scripts lint",
@@ -22,7 +23,7 @@
     "@mate-academy/bemlint": "^0.1.1",
     "@mate-academy/eslint-config": "*",
     "@mate-academy/linthtml-config": "0.0.2",
-    "@mate-academy/scripts": "^0.2.0",
+    "@mate-academy/scripts": "^1.7.0",
     "@mate-academy/stylelint-config": "0.0.9",
     "colors": "^1.3.3",
     "eslint": "^5.16.0",
